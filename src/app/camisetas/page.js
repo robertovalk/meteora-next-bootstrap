@@ -10,9 +10,8 @@ const Container = styled('div')`
     flex-direction: column;
 
 
-    .ImgMobile {
-        object-fit: cover;
-        width: 100%;
+    .Img-details {
+        object-fit: fill;
         border-radius: 4px 4px 0 0;
     }
 
@@ -129,7 +128,7 @@ export default function Camisetas() {
     return (
         <Container>
 
-            <Image className='ImgMobile'
+            <Image className='Img-details'
                 src="/Cardcamiseta.svg"
                 alt="Vercel Logo"
                 width={323}

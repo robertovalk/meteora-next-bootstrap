@@ -142,7 +142,7 @@ export default function Produtos() {
 
                     <p className="valor">R$ 250,00</p>
 
-                    <Link href='#' className="botaoVerMais">Ver Mais</Link>
+                    <Link href='/tenis' className="botaoVerMais">Ver Mais</Link>
                 </spam>
             </li>
 
@@ -163,7 +163,7 @@ export default function Produtos() {
 
                     <p className="valor">R$ 150,00</p>
 
-                    <Link href='#' className="botaoVerMais">Ver Mais</Link>
+                    <Link href='/jaqueta' className="botaoVerMais">Ver Mais</Link>
                 </spam>
             </li>
 
@@ -184,7 +184,7 @@ export default function Produtos() {
 
                     <p className="valor">R$ 120,00</p>
 
-                    <Link href='#' className="botaoVerMais">Ver Mais</Link>
+                    <Link href='/oculos' className="botaoVerMais">Ver Mais</Link>
                 </spam>
             </li>
 
@@ -205,7 +205,7 @@ export default function Produtos() {
 
                     <p className="valor">R$ 120,00</p>
 
-                    <Link href='#' className="botaoVerMais">Ver Mais</Link>
+                    <Link href='/bolsa' className="botaoVerMais">Ver Mais</Link>
                 </spam>
             </li>
 

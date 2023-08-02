@@ -124,12 +124,12 @@ const ContainerInfo = styled('div')`
 
 `
 
-export default function Calcas() {
+export default function Oculos() {
     return (
         <Container>
 
             <Image className='Img-details'
-                src="/Cardcalça.svg"
+                src="/Cardsoculos.svg"
                 alt="Vercel Logo"
                 width={323}
                 height={402}
