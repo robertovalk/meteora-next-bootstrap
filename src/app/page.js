@@ -1,14 +1,17 @@
 'use client'
 
-import  Header from './componentes/header/header'
-import Input from './componentes/search/search'
-import Carrossel from './componentes/carrossel/carrossel'
+import  Header from './componentes/header/header';
+import Input from './componentes/search/search';
+import Carrossel from './componentes/carrossel/carrossel';
 import styled from "styled-components";
 import CategoriasItens from './componentes/categoriasItens/categoriasItens';
 import Produtos from './componentes/produtos/produtos';
 import Facilidades from './componentes/facilidades/facilidades';
 import Cadastro from './componentes/cadastro/cadastro';
 import Footer from './componentes/footer/footer';
+
+
+
 
 
 
@@ -41,6 +44,9 @@ export default function Home() {
       </ContainerTitle>
 
       <CategoriasItens/>
+      
+    
+      
      
       <ContainerTitle>
         <h3>Produtos que estão bombando!</h3>
@@ -53,6 +59,8 @@ export default function Home() {
       <Cadastro/>
 
       <Footer/>
+
+      
 
       
       

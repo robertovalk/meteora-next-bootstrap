@@ -99,7 +99,7 @@ export default function Produtos() {
 
                     <p className="valor">R$ 70,00</p>
 
-                    <Link href='#' className="botaoVerMais">Ver Mais</Link>
+                    <Link href='/camisetas' className="botaoVerMais">Ver Mais</Link>
                 </spam>
             </li>
 
@@ -120,7 +120,7 @@ export default function Produtos() {
 
                     <p className="valor">R$ 180,00</p>
 
-                    <Link href='#' className="botaoVerMais">Ver Mais</Link>
+                    <Link href='/calca' className="botaoVerMais">Ver Mais</Link>
                 </spam>
             </li>
 
