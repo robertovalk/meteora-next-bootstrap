@@ -11,9 +11,16 @@ const Container = styled('div')`
 
 
     .Img-details {
-        object-fit: fill;
+        object-fit: cover;
+        width:100%;
         border-radius: 4px 4px 0 0;
+
+        @media (min-width: 768px) {
+            object-fit: fill;
+        }
     }
+
+
 
     @media (min-width: 768px) {
         flex-direction: row;
