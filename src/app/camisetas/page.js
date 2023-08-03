@@ -25,6 +25,11 @@ const Container = styled('div')`
             max-width: 350px;
             height: 422px;
         }
+
+        @media (min-width: 1024px) {
+            max-width: 414px;
+            height: 551px;
+        }
     }
 
 `
@@ -34,6 +39,10 @@ const ContainerInfo = styled('div')`
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    @media (min-width: 1024px) {
+        gap: 35px;
+    }
 
 
     .title-info {

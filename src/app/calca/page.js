@@ -4,36 +4,47 @@ import styled from "styled-components";
 import Image from "next/image";
 
 const Container = styled('div')`
-border: 1px solid #000;
-margin: 1em;
-display: flex;
-flex-direction: column;
+    border: 1px solid #000;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
 
-@media (min-width:768px) {
-    display: grid;
-    grid-template-columns: 41% 59%;
-    align-items: flex-start;
-    border: none;
-}
-
-.Img-details {
-    object-fit: cover;
-    width:100%;
-    border-radius: 4px 4px 0 0;
-
-    @media (min-width: 768px) {
-        max-width: 350px;
-        height: 422px;
+    @media (min-width:768px) {
+        display: grid;
+        grid-template-columns: 41% 59%;
+        align-items: flex-start;
+        border: none;
     }
-}
+
+    .Img-details {
+        object-fit: cover;
+        width:100%;
+        border-radius: 4px 4px 0 0;
+
+        @media (min-width: 768px) {
+            max-width: 350px;
+            height: 422px;
+        }
+
+        @media (min-width: 1024px) {
+            max-width: 414px;
+            height: 551px;
+        }
+    }
 
 `
 
 const ContainerInfo = styled('div')`
-padding: 1em;
-display: flex;
-flex-direction: column;
-gap: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media (min-width: 1024px) {
+        gap: 35px;
+    }
+
+
 
     .title-info {
         font-size: 16px;
