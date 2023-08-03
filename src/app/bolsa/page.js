@@ -9,22 +9,22 @@ const Container = styled('div')`
     display: flex;
     flex-direction: column;
 
+    @media (min-width:768px) {
+        display: grid;
+        grid-template-columns: 41% 59%;
+        align-items: flex-start;
+        border: none;
+    }
 
     .Img-details {
         object-fit: cover;
         width:100%;
         border-radius: 4px 4px 0 0;
 
-        
         @media (min-width: 768px) {
-            object-fit: fill;
+            max-width: 350px;
+            height: 422px;
         }
-    }
-
-
-    @media (min-width: 768px) {
-        flex-direction: row;
-        border: none;
     }
 
 `
@@ -33,8 +33,7 @@ const ContainerInfo = styled('div')`
     padding: 1em;
     display: flex;
     flex-direction: column;
-    gap: 1em;
-
+    gap: 20px;
 
     .title-info {
         font-size: 16px;

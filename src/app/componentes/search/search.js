@@ -24,7 +24,7 @@ const Container = styled('div')`
 
 
    
-    input {
+    .input-search {
         background-color: var(--branco);
         border: 1px solid #000000;
         display: flex;
@@ -36,11 +36,11 @@ const Container = styled('div')`
     }
 
 
-    input:focus {
+    .input-search:focus {
         color: none;
     }
 
-    input::placeholder {
+    .input-search::placeholder {
         color: #6C757D;
     }
 
@@ -69,7 +69,7 @@ export default function Input() {
     return (
 
         <Container>
-            <input type="text" placeholder="Digite o Produto"/>
+            <input className="input-search" type="text" placeholder="Digite o Produto"/>
             <button>Search</button>
         </Container>
 

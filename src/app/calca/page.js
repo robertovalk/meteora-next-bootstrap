@@ -4,30 +4,36 @@ import styled from "styled-components";
 import Image from "next/image";
 
 const Container = styled('div')`
-    border: 1px solid #000;
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
+border: 1px solid #000;
+margin: 1em;
+display: flex;
+flex-direction: column;
 
+@media (min-width:768px) {
+    display: grid;
+    grid-template-columns: 41% 59%;
+    align-items: flex-start;
+    border: none;
+}
 
-    .Img-details {
-        object-fit: fill;
-        border-radius: 4px 4px 0 0;
-    }
+.Img-details {
+    object-fit: cover;
+    width:100%;
+    border-radius: 4px 4px 0 0;
 
     @media (min-width: 768px) {
-        flex-direction: row;
-        border: none;
+        max-width: 350px;
+        height: 422px;
     }
+}
 
 `
 
 const ContainerInfo = styled('div')`
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-
+padding: 1em;
+display: flex;
+flex-direction: column;
+gap: 20px;
 
     .title-info {
         font-size: 16px;
